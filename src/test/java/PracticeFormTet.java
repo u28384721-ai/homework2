@@ -21,7 +21,18 @@ public class PracticeFormTet {
         $("[id=RightSide_Advertisement]").click();
         $("[id=hobbies-checkbox-3]").click();
 
+        $("[id=subjectsInput]").setValue("Hindi").pressEnter();
+
+
         $("[id=currentAddress]").setValue("г. Москва, ул. Тверская, д. 1").pressEnter();
-       
+
+        $(".css-19bb58m input").click();
+        $("[id=react-select-3-input]").setValue("NCR").pressEnter();
+
+        $(".css-19bb58m input").click();
+
+        $("[id=react-select-4-input]").setValue("Delhi").pressEnter();
+
+
     }
 }
