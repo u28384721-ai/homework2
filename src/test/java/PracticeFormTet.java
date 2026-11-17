@@ -34,6 +34,7 @@ public class PracticeFormTet {
         $(".css-19bb58m input").click();
 
         $("[id=react-select-4-input]").setValue("Delhi").pressEnter();
+        $("[id=submit]").click();
 
 
     }
