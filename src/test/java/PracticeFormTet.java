@@ -22,9 +22,6 @@ public class PracticeFormTet {
         $("[id=hobbies-checkbox-3]").click();
 
         $("[id=currentAddress]").setValue("г. Москва, ул. Тверская, д. 1").pressEnter();
-        $("[class=\"css-19bb58m\"]").click();
-
-
-
+       
     }
 }
