@@ -23,6 +23,8 @@ public class PracticeFormTet {
 
         $("[id=subjectsInput]").setValue("Hindi").pressEnter();
 
+        $("#uploadPicture").uploadFromClasspath("conflict.png");
+
 
         $("[id=currentAddress]").setValue("г. Москва, ул. Тверская, д. 1").pressEnter();
 
